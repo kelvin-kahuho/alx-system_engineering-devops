@@ -1,11 +1,2 @@
 #!/bin/bash
-
-# Get the current working directory
-cwd=$(pwd)
-
-# Get the absolute path of the current working directory
-abs_cwd=$(readlink -f $cwd)
-
-# Print the absolute path of the current working directory
-echo $abs_cwd
-
+pwd -p
